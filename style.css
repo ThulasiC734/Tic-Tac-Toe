@@ -19,6 +19,12 @@ nav{
  nav ul{
     list-style-type: none;
 }
+/* body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
 .gameContainer{
     /* background-color:yellow ; */
     display:flex;
@@ -33,12 +39,16 @@ nav{
     grid-template-rows: repeat(3, 10w);
     grid-template-columns: repeat(3, 10vw);
     font-family: 'Times New Roman', Times, serif;
+    width: 454px;
+    height: 454px;
 
 
 
 }
+
+
 .box{
-border: 2px solid black;
+border: 3px solid black;
 font-size: 8vw;
 cursor: pointer;
 display:flex;
@@ -47,7 +57,7 @@ align-items: center;
 }
 
 .box:hover{
-    background-color: rgb(91, 90, 146);
+    background-color: rgb(226, 202, 219);
 }
 .gameInfo{
     padding: 0 34px;
